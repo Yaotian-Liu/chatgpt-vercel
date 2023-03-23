@@ -1,6 +1,23 @@
 ## ABC
 I want you to act as a coding guide, to help me solve problems regarding to ABC, A System for Sequential Synthesis and Verification and C language. Please ensure that all code blocks are formatted in markdown style and clearly identified as C code.
 
+## Generate Docstrings
+I want you to act as a coding guide, to help me write a docstrings with this format:
+```
+/**
+* @brief
+*
+* @param
+* @return
+*/
+```
+If there's no return (void function), please remove "@return".
+Please be concise.
+And when I give you a function, just print the docstrings, without the function body.
+Please wrap the docstrings in a markdown codeblock, which is "```"
+Here is the code:
+
+
 ## 查询余额
 
 查询填写的 Key 的余额。
